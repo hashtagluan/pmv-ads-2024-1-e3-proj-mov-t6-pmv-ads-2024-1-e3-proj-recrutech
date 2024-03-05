@@ -1,23 +1,25 @@
-# TÍTULO DO PROJETO
+# RECRUTECH
 
-`CURSO`
+`ANÁLISE E DESENVOLVIMENTO DE SISTEMAS`
 
-`DISCIPLINA`
+`Projeto: Desenvolvimento de uma Aplicação Móvel em um Ambiente de Negócio`
 
-`SEMESTRE`
+`Primeiros semestre de 2024`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+Diante da crescente demanda por profissionais de tecnologia da informação (TI) no Brasil, torna-se imperativo buscar soluções inovadoras para facilitar o encontro entre recrutadores e desenvolvedores. O objetivo deste projeto é facilitar a conexão entre empregadores e desenvolvedores por meio da criação de uma plataforma eficiente e transparente que otimize o processo de recrutamento na área de desenvolvimento de software.
+
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
+* LORRAYNE CRISTINE LOPES PEREIRA
+* LUCAS FARIA VERRI
+* MATHEUS ALMEIDA DA ROCHA 
+* SANDRO SÁVIO MACIEL
+* VITOR COSTA OLIVEIRA SILVA
 
 ## Orientador
 
-* Nome completo do professor 1
+* WESLEY DIAS MACIEL
 
 ## Instruções de utilização
 
