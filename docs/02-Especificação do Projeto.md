@@ -1,10 +1,6 @@
 # Especificações do Projeto
 
-<span style="color:red">Pré-requisitos: <a href="1-Documentação de Contexto.md"> Documentação de Contexto</a></span>
-
-Definição do problema e ideia de solução a partir da perspectiva do usuário. É composta pela definição do  diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais além das restrições do projeto.
-
-Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto
+A concepção deste projeto foi impulsionada pela análise atenta das recorrentes queixas presentes nas redes sociais, que destacavam a dificuldade persistente em encontrar oportunidades profissionais nas atuais plataformas, aliada à crescente complexidade e monotonia dos processos de recrutamento. A proposta centraliza-se na criação de uma plataforma mobile intuitiva, estrategicamente desenvolvida para simplificar o recrutamento, direcionando-se às demandas específicas dos desenvolvedores. Essa abordagem visa não apenas atender às necessidades imediatas dos profissionais de TI, mas também a fomentar o crescimento e a consolidação de uma comunidade de desenvolvedores mais robusta e colaborativa.
 
 ## Personas
 
@@ -14,8 +10,6 @@ Marcos Oliveira tem 35 anos, trabalhou por mais de uma década como gerente de p
 
 Rafael Mendes tem 28 anos, trabalhou como desenvolvedor de software em uma empresa de tecnologia por cinco anos, mas recentemente foi demitido devido a uma reestruturação interna. Agora, ele está em busca de uma nova oportunidade que lhe permita continuar sua trajetória e quer encontrar rapidamente uma vaga que corresponda ao seu nível de experiência e expectativas salariais.
 
-
-
 Com base na análise das personas forma identificadas as seguintes histórias de usuários:
 
 | EU COMO... `PERSONA`                | QUERO/PRECISO ... `FUNCIONALIDADE` | PARA ... `MOTIVO/VALOR`                                         |
@@ -23,11 +17,6 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 | Estudante de Ciência da Computação | Encontrar vagas de estágio ou para desenvolvedores juniores que se encaixem em meu perfil. | Ter uma chance de aplicar minhas habilidades técnicas e iniciar minha carreira profissional na área de TI. |
 | Gerente de Projetos em transição de carreira | Encontrar oportunidades de emprego que valorizem minhas habilidades de gestão de projetos e ofereçam oportunidades de aprendizado e crescimento na área técnica. | Realizar uma transição de carreira suave e eficiente, alinhada às minhas experiências anteriores e interesses. |
 | Desenvolvedor de software          | Encontrar rapidamente uma nova oportunidade que corresponda ao meu nível de experiência e expectativas salariais. | Continuar minha trajetória profissional, desenvolver minhas habilidades técnicas e me destacar no mercado de trabalho de TI. |
-
-
-Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
-
-
 
 ## Modelagem do Processo de Negócio 
 
