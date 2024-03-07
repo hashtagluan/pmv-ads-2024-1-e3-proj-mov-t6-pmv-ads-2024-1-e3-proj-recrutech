@@ -8,11 +8,11 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 
 ## Personas
 
-Ana  Garcia tem 22 anos, é estudante de Ciência da Computação e está no último ano de sua graduação em Ciência da Computação e está buscando sua primeira oportunidade de emprego na área de desenvolvimento de software. Ela tem boas habilidades técnicas, mas ainda não possui experiência profissional. Ela está em busca de uma plataforma que seja fácil de usar, onde ela possa encontrar vagas relevantes e ter uma experiência transparente no processo seletivo.
+Ana Garcia tem 22 anos, é estudante de Ciência da Computação e está no último ano de sua graduação em Ciência da Computação. Atualmente está buscando sua primeira oportunidade de emprego na área de desenvolvimento de software. Ela tem boas habilidades técnicas, mas ainda não possui experiência profissional. Ela está em busca de uma plataforma que seja fácil de usar, onde ela possa encontrar vagas relevantes e ter uma experiência transparente no processo seletivo.
 
-Marcos Oliveira tem 35 anos, trabalhou por mais de uma década como gerente de projetos em uma empresa de consultoria, mas recentemente decidiu fazer uma transição de carreira para a área de desenvolvimento de software. Ele está em busca de uma plataforma que o ajude a encontrar vagas que correspondam às suas habilidades e interesses, facilitando sua transição de carreira de forma suave e eficiente
+Marcos Oliveira tem 35 anos, trabalhou por mais de uma década como gerente de projetos em uma empresa de consultoria, mas recentemente decidiu fazer uma transição de carreira para a área de desenvolvimento de software. Ele está em busca de uma plataforma que o ajude a encontrar vagas que correspondam às suas habilidades e interesses, facilitando sua transição de carreira de forma suave e eficiente.
 
-Rafael Mendes tem 28 anos, trabalhou como desenvolvedor de software em uma empresa de tecnologia por cinco anos, mas recentemente foi demitido devido a uma reestruturação interna. Agora, ele está em busca de uma nova oportunidade que lhe permita continuar sua trajetória e quer encontrar rapidamente uma vaga que corresponda ao seu nível de experiência e expectativas salariais
+Rafael Mendes tem 28 anos, trabalhou como desenvolvedor de software em uma empresa de tecnologia por cinco anos, mas recentemente foi demitido devido a uma reestruturação interna. Agora, ele está em busca de uma nova oportunidade que lhe permita continuar sua trajetória e quer encontrar rapidamente uma vaga que corresponda ao seu nível de experiência e expectativas salariais.
 
 
 
@@ -53,45 +53,38 @@ Apresente aqui o nome e as oportunidades de melhorias para o processo 2. Em segu
 
 ## Indicadores de Desempenho
 
-Apresente aqui os principais indicadores de desempenho e algumas metas para o processo. Atenção: as informações necessárias para gerar os indicadores devem estar contempladas no diagrama de classe. Colocar no mínimo 5 indicadores. 
-
-Usar o seguinte modelo: 
-
-![Indicadores de Desempenho](img/02-indic-desemp.png)
-Obs.: todas as informações para gerar os indicadores devem estar no diagrama de classe a ser apresentado a posteriori. 
+| Indicador                           | Objetivo                                                                                                  | Descrição                                                                                                                     | Cálculo                                                    | Fonte de Dados                                 | Perspectiva                                                                                                                                |
+|-------------------------------------|-----------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------|--------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------|
+| Taxa de Conversão de Candidatos      | Aumentar a eficiência do processo de recrutamento, convertendo um maior número de candidatos em membros ativos na plataforma | Mede a porcentagem de candidatos que completam o processo de cadastro na plataforma em relação ao total de visitantes           | (Número de candidatos cadastrados / Número total de visitantes) * 100 | Registros de cadastros na plataforma.            | Uma taxa crescente indica uma maior aceitação e adoção da plataforma pelos desenvolvedores, refletindo um aumento na eficiência do processo de recrutamento                                        |
+| Tempo Médio de Preenchimento do Perfil | Simplificar o processo para os desenvolvedores, reduzindo o tempo necessário para preencher seus perfis na plataforma | Mede o tempo médio que os desenvolvedores levam para completar o preenchimento do perfil na plataforma                         | Soma do tempo de preenchimento de todos os perfis / Número total de perfis preenchidos                                   | Registros de tempo de preenchimento de perfil na plataforma | Uma redução no tempo médio de preenchimento indica que a plataforma está sendo percebida como intuitiva e amigável, facilitando a adesão dos desenvolvedores                                           |
+| Satisfação do Usuário                | Garantir uma experiência positiva para os desenvolvedores na plataforma                                     | Mede a satisfação dos usuários por meio de pesquisas regulares ou feedbacks diretos                                           | Pontuação média de satisfação (em uma escala de 1 a 5, por exemplo) | Pesquisas de satisfação, feedbacks diretos dos usuários | Um aumento na satisfação do usuário é indicativo de uma plataforma bem-sucedida, atendendo às expectativas e necessidades dos desenvolvedores                                                        |
+| Taxa de Colocação de Desenvolvedores  | Avaliar a eficácia da plataforma na colocação de desenvolvedores em oportunidades de trabalho              | Mede a porcentagem de desenvolvedores na plataforma que foram colocados com sucesso em posições de trabalho                   | (Número de desenvolvedores colocados / Número total de desenvolvedores) * 100 | Registros de colocação de desenvolvedores       | Uma taxa elevada de colocação indica que a plataforma está cumprindo sua missão de simplificar e melhorar o processo de recrutamento para desenvolvedores                                   |
 
 ## Requisitos
 
-As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto. Para determinar a prioridade de requisitos, aplicar uma técnica de priorização de requisitos e detalhar como a técnica foi aplicada.
+As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto.
 
 ### Requisitos Funcionais
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
+|RF-001| Permitir que o sistema autentique os usuários.| ALTA | 
+|RF-002| O sistema deve permitir o cadastro, edição, visualização e exclusão de vagas.  | ALTA |
+|RF-003| Os usuários devem poder pesquisar vagas com base em critérios como linguagem de programação, nível de experiência, remuneração e localização. | ALTA | 
+|RF-004| Os desenvolvedores devem poder enviar seus currículos para as vagas de interesse através do aplicativo.   | ALTA |
+|RF-005| Os usuários deverão receber notificações via email de acordo com suas preferências e vagas. | MÉDIA | 
+|RF-006| Os usuários recrutadores devem ter acesso ao currículo dos desenvolvedores que aplicarem para a vaga.   | ALTA |
 
 ### Requisitos não Funcionais
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
-
-Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
-
-- [Requisitos Funcionais
- (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
- correspondem a uma funcionalidade que deve estar presente na
-  plataforma (ex: cadastro de usuário).
-- [Requisitos Não Funcionais
-  (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
-  correspondem a uma característica técnica, seja de usabilidade,
-  desempenho, confiabilidade, segurança ou outro (ex: suporte a
-  dispositivos iOS e Android).
-Lembre-se que cada requisito deve corresponder à uma e somente uma
-característica alvo da sua solução. Além disso, certifique-se de que
-todos os aspectos capturados nas Histórias de Usuário foram cobertos.
+| RNF-001 | As informações dos usuários, como dados pessoais e currículos, devem ser protegidas por medidas de segurança, como criptografia. | ALTA | 
+| RNF-002 | O aplicativo deve ser compatível com as principais plataformas móveis, como iOS e Android. | MÉDIA | 
+| RNF-003 | A interface do usuário deve ser intuitiva e fácil de usar, proporcionando uma experiência amigável aos desenvolvedores e recrutadores. | BAIXA | 
+| RNF-004 | O aplicativo deve estar disponível 24/7, com tempo de inatividade mínimo para manutenção programada. | ALTA | 
+| RNF-005 | O sistema deve ser capaz de lidar com um aumento significativo no número de usuários e vagas sem comprometer o desempenho. | ALTA | 
+| RNF-006 | O aplicativo deve ser responsivo e ter um tempo de carregamento rápido para proporcionar uma boa experiência ao usuário. | MÉDIA | 
 
 ## Restrições
 
@@ -99,27 +92,12 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 |ID| Restrição                                             |
 |--|-------------------------------------------------------|
-|01| O projeto deverá ser entregue até o final do semestre |
-|02| Não pode ser desenvolvido um módulo de backend        |
-
-Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
-
-> **Links Úteis**:
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
+|01| O projeto deverá ser entregue até a data limite de 23/06/2024. |
+|02| O projeto deverá ser desenvolvido usando React Native e ASP.NET Core. |
 
 ## Diagrama de Casos de Uso
 
-O diagrama de casos de uso é o próximo passo após a elicitação de requisitos, que utiliza um modelo gráfico e uma tabela com as descrições sucintas dos casos de uso e dos atores. Ele contempla a fronteira do sistema e o detalhamento dos requisitos funcionais com a indicação dos atores, casos de uso e seus relacionamentos. 
 
-As referências abaixo irão auxiliá-lo na geração do artefato “Diagrama de Casos de Uso”.
-
-> **Links Úteis**:
-> - [Criando Casos de Uso](https://www.ibm.com/docs/pt-br/elm/6.0?topic=requirements-creating-use-cases)
-> - [Como Criar Diagrama de Caso de Uso: Tutorial Passo a Passo](https://gitmind.com/pt/fazer-diagrama-de-caso-uso.html/)
-> - [Lucidchart](https://www.lucidchart.com/)
-> - [Astah](https://astah.net/)
-> - [Diagrams](https://app.diagrams.net/)
 
 # Matriz de Rastreabilidade
 
@@ -157,6 +135,5 @@ O gerenciamento adequado de tarefas contribuirá para que o projeto alcance alto
 
 ## Gestão de Orçamento
 
-O processo de determinar o orçamento do projeto é uma tarefa que depende, além dos produtos (saídas) dos processos anteriores do gerenciamento de custos, também de produtos oferecidos por outros processos de gerenciamento, como o escopo e o tempo.
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t6-pmv-ads-2024-1-e3-proj-recrutech/assets/117364316/cb894711-f065-4613-b549-7635d7731e0b)
 
-![Orçamento](img/02-orcamento.png)
