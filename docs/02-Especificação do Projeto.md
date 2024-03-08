@@ -88,12 +88,11 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 
 
-![Diagrama de caso de uso RecruTech (1)](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t6-pmv-ads-2024-1-e3-proj-recrutech/assets/126488218/59e01827-fcbc-43f0-8256-c68cd12075e1)
-
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t6-pmv-ads-2024-1-e3-proj-recrutech/assets/117364316/c32e0dba-51f8-4ff2-a8e3-e3523715e25b)
 
 
 # Matriz de Rastreabilidade
-![Captura de tela de 2024-03-07 21-25-32](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t6-pmv-ads-2024-1-e3-proj-recrutech/assets/65717646/267d621c-d8b4-4f23-b8cc-af2c2060cd57)
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t6-pmv-ads-2024-1-e3-proj-recrutech/assets/117364316/0aa10c30-a504-4677-bef0-d39f8f072c82)
 
 
 # Gerenciamento de Projeto
