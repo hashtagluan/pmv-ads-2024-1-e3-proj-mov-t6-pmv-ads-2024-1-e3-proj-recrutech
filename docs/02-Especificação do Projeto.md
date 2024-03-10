@@ -25,52 +25,56 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 Atualmente, os desenvolvedores enfrentam uma série de desafios no processo de recrutamento na área de desenvolvimento de software. A busca por oportunidades é morosa e muitas vezes opaca, dificultando a identificação de vagas compatíveis. Além disso, os desenvolvedores têm dificuldade em destacar suas habilidades de maneira eficaz, e os processos seletivos carecem de transparência, deixando os candidatos no escuro quanto ao andamento de suas candidaturas. Não há uma plataforma centralizada que atenda a essas necessidades, resultando em uma falta de eficiência e acessibilidade no processo de recrutamento.
 
 O processo de recrutamento na área de desenvolvimento de software hoje geralmente envolve:
-Busca Manual por Vagas: Os desenvolvedores dependem principalmente de plataformas de emprego genéricas e sites de empresas para encontrar vagas.
-Envio de Currículos: Os desenvolvedores enviam currículos para várias vagas sem uma correspondência clara entre suas habilidades e os requisitos das vagas.
-Falta de Transparência: Após a aplicação, os desenvolvedores têm pouca visibilidade sobre o andamento de suas candidaturas e raramente recebem feedbacks úteis.
-Destaque Limitado para Habilidades: As plataformas existentes geralmente não oferecem uma maneira eficaz para os desenvolvedores destacarem habilidades específicas.
-Pessoas Envolvidas: 
 
-Desenvolvedores (candidatos): São profissionais de TI com habilidades em desenvolvimento de software que estão em busca de oportunidades de emprego. Eles buscam uma plataforma que facilite o processo de encontrar vagas alinhadas com suas habilidades e interesses.
-Recrutadores: Podem ser representantes das empresas ou profissionais independentes que ajudam as empresas a encontrar e selecionar os candidatos certos para as vagas disponíveis. Eles desempenham um papel importante no processo de recrutamento, ajudando a identificar os candidatos mais adequados para as empresas.
-Administradores do Sistema: São os responsáveis pelo desenvolvimento, manutenção e operação da plataforma de recrutamento. Eles garantem que a plataforma funcione sem problemas e atenda às necessidades tanto das empresas quanto dos desenvolvedores.
+#### Busca Manual por Vagas: 
+Os desenvolvedores dependem principalmente de plataformas de emprego genéricas e sites de empresas para encontrar vagas.
+
+#### Envio de Currículos: 
+Os desenvolvedores enviam currículos para várias vagas sem uma correspondência clara entre suas habilidades e os requisitos das vagas.
+
+#### Falta de Transparência: 
+Após a aplicação, os desenvolvedores têm pouca visibilidade sobre o andamento de suas candidaturas e raramente recebem feedbacks úteis.
+
+#### Destaque Limitado para Habilidades: 
+As plataformas existentes geralmente não oferecem uma maneira eficaz para os desenvolvedores destacarem habilidades específicas.
+
+### Pessoas Envolvidas: 
+
+#### Desenvolvedores (candidatos): 
+São profissionais de TI com habilidades em desenvolvimento de software que estão em busca de oportunidades de emprego. Eles buscam uma plataforma que facilite o processo de encontrar vagas alinhadas com suas habilidades e interesses.
+
+#### Recrutadores: 
+Podem ser representantes das empresas ou profissionais independentes que ajudam as empresas a encontrar e selecionar os candidatos certos para as vagas disponíveis. Eles desempenham um papel importante no processo de recrutamento, ajudando a identificar os candidatos mais adequados para as empresas.
 
 
 ### Descrição Geral da Proposta
 
-A proposta é desenvolver o RecruTech, uma plataforma mobile intuitiva para melhorar significativamente a experiência dos desenvolvedores no processo de recrutamento. O sistema visa centralizar e simplificar a busca por oportunidades, destacar as habilidades dos desenvolvedores de forma eficaz, proporcionar transparência nos processos seletivos e melhorar a acessibilidade para desenvolvedores de diferentes origens. A proposta está alinhada com os objetivos estratégicos do negócio, visando fortalecer a comunidade de desenvolvedores e criar um ambiente mais eficiente e inclusivo para o recrutamento na área de desenvolvimento de software.
+A proposta é desenvolver o RecruTech, uma plataforma mobile intuitiva para melhorar significativamente a experiência dos desenvolvedores no processo de recrutamento. O sistema visa centralizar e simplificar a busca por oportunidades, destacar as habilidades dos desenvolvedores de forma eficaz e melhorar a acessibilidade para desenvolvedores de diferentes origens. A proposta está alinhada com os objetivos estratégicos do negócio, visando fortalecer a comunidade de desenvolvedores e criar um ambiente mais eficiente e inclusivo para o recrutamento na área de desenvolvimento de software.
 
-dastro Simplificado:m Desenvolver um formulário de cadastro simples e intuitivo para os usuários que buscam vagas, coletando apenas informações essenciais inicialmente.
-Perfil de Usuário: Criar uma seção de perfil onde os usuários podem adicionar detalhes sobre suas habilidades, experiências e preferências de trabalho.
-Busca de Vagas: Implementar uma função de busca de vagas com filtros relevantes, como localização, tipo de contrato e área de atuação.
-Acompanhamento do Processo: Introduzir uma área de acompanhamento do processo seletivo, onde os usuários podem visualizar o status de suas candidaturas e receber atualizações em tempo real.
+#### Cadastro Simplificado: 
+Desenvolver um formulário de cadastro simples e intuitivo para os usuários que buscam vagas, coletando apenas informações essenciais inicialmente.
 
+#### Perfil de Usuário: 
+Criar uma seção de perfil onde os usuários podem adicionar detalhes sobre suas habilidades, experiências e preferências de trabalho.
 
+#### Busca de Vagas: 
+Implementar uma função de busca de vagas com filtros relevantes, como localização, tipo de contrato e área de atuação.
 
-### PProcessos de negócios (BPMN)
+### Processos de negócios (BPMN)
 
 Business Process Modeling Notation (BPMN) é um padrão desenvolvido visando oferecer uma notação mais facilmente compreendida e usada por todos os envolvidos nos processos de negócio. 
 
 As regras de negócios foram traduzidas dentro desta metodologia para que seja possível ilustrar as regras de negócios de forma a traduzir nas entregas necessárias dentro do sistema.
 
-![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t6-pmv-ads-2024-1-e3-proj-recrutech/assets/128554958/831ce4fe-d61c-4778-ba77-3a910472e213)
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t6-pmv-ads-2024-1-e3-proj-recrutech/assets/117364316/aae21ddd-380d-410a-b60f-5b42fa76b098)
 
 Este modelo simplificado aborda as principais funcionalidades do processo de cadastro e busca de vagas, proporcionando uma experiência mais direta para os usuários que buscam oportunidades na área de desenvolvimento de software.
 Abaixo segue o detalhamento individual dos processos:
 
-Processo 1 : Cadastro do currículo dos candidatos
-Processo 2: Buscar vaga
-Processo 3: Candidatar a vaga
-
 ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t6-pmv-ads-2024-1-e3-proj-recrutech/assets/128554958/10e17f81-093e-41ef-9a6b-695865eca5b1)
 
-Processo 3 : Cadastro de vagas
-Processo 2: Buscar candidato
-Processo 3: Selecionar candidato
 
-![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t6-pmv-ads-2024-1-e3-proj-recrutech/assets/128554958/a27ce77c-973e-4749-ac80-0580ab45aca9)
-
-
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t6-pmv-ads-2024-1-e3-proj-recrutech/assets/117364316/ebd1cde6-b6b8-4801-9705-1b81547e0a37)
 
 
 ## Indicadores de Desempenho
@@ -118,8 +122,6 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |02| O projeto deverá ser desenvolvido usando React Native e ASP.NET Core. |
 
 ## Diagrama de Casos de Uso
-
-
 
 ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t6-pmv-ads-2024-1-e3-proj-recrutech/assets/117364316/c32e0dba-51f8-4ff2-a8e3-e3523715e25b)
 
