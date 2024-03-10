@@ -22,23 +22,56 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 ### Análise da Situação Atual
 
-Apresente aqui os problemas existentes que viabilizam sua proposta. Apresente o modelo do sistema como ele funciona hoje. Caso sua proposta seja inovadora e não existam processos claramente definidos, apresente como as tarefas que o seu sistema pretende implementar são executadas atualmente, mesmo que não se utilize tecnologia computacional. 
+Atualmente, os desenvolvedores enfrentam uma série de desafios no processo de recrutamento na área de desenvolvimento de software. A busca por oportunidades é morosa e muitas vezes opaca, dificultando a identificação de vagas compatíveis. Além disso, os desenvolvedores têm dificuldade em destacar suas habilidades de maneira eficaz, e os processos seletivos carecem de transparência, deixando os candidatos no escuro quanto ao andamento de suas candidaturas. Não há uma plataforma centralizada que atenda a essas necessidades, resultando em uma falta de eficiência e acessibilidade no processo de recrutamento.
+
+O processo de recrutamento na área de desenvolvimento de software hoje geralmente envolve:
+Busca Manual por Vagas: Os desenvolvedores dependem principalmente de plataformas de emprego genéricas e sites de empresas para encontrar vagas.
+Envio de Currículos: Os desenvolvedores enviam currículos para várias vagas sem uma correspondência clara entre suas habilidades e os requisitos das vagas.
+Falta de Transparência: Após a aplicação, os desenvolvedores têm pouca visibilidade sobre o andamento de suas candidaturas e raramente recebem feedbacks úteis.
+Destaque Limitado para Habilidades: As plataformas existentes geralmente não oferecem uma maneira eficaz para os desenvolvedores destacarem habilidades específicas.
+Pessoas Envolvidas: 
+
+Desenvolvedores (candidatos): São profissionais de TI com habilidades em desenvolvimento de software que estão em busca de oportunidades de emprego. Eles buscam uma plataforma que facilite o processo de encontrar vagas alinhadas com suas habilidades e interesses.
+Recrutadores: Podem ser representantes das empresas ou profissionais independentes que ajudam as empresas a encontrar e selecionar os candidatos certos para as vagas disponíveis. Eles desempenham um papel importante no processo de recrutamento, ajudando a identificar os candidatos mais adequados para as empresas.
+Administradores do Sistema: São os responsáveis pelo desenvolvimento, manutenção e operação da plataforma de recrutamento. Eles garantem que a plataforma funcione sem problemas e atenda às necessidades tanto das empresas quanto dos desenvolvedores.
+
 
 ### Descrição Geral da Proposta
 
-Apresente aqui uma descrição da sua proposta abordando seus limites e suas ligações com as estratégias e objetivos do negócio. Apresente aqui as oportunidades de melhorias.
+A proposta é desenvolver o RecruTech, uma plataforma mobile intuitiva para melhorar significativamente a experiência dos desenvolvedores no processo de recrutamento. O sistema visa centralizar e simplificar a busca por oportunidades, destacar as habilidades dos desenvolvedores de forma eficaz, proporcionar transparência nos processos seletivos e melhorar a acessibilidade para desenvolvedores de diferentes origens. A proposta está alinhada com os objetivos estratégicos do negócio, visando fortalecer a comunidade de desenvolvedores e criar um ambiente mais eficiente e inclusivo para o recrutamento na área de desenvolvimento de software.
 
-### Processo 1 – NOME DO PROCESSO
+dastro Simplificado:m Desenvolver um formulário de cadastro simples e intuitivo para os usuários que buscam vagas, coletando apenas informações essenciais inicialmente.
+Perfil de Usuário: Criar uma seção de perfil onde os usuários podem adicionar detalhes sobre suas habilidades, experiências e preferências de trabalho.
+Busca de Vagas: Implementar uma função de busca de vagas com filtros relevantes, como localização, tipo de contrato e área de atuação.
+Acompanhamento do Processo: Introduzir uma área de acompanhamento do processo seletivo, onde os usuários podem visualizar o status de suas candidaturas e receber atualizações em tempo real.
 
-Apresente aqui o nome e as oportunidades de melhorias para o processo 1. Em seguida, apresente o modelo do processo 1, descrito no padrão BPMN. 
 
-![Processo 1](img/02-bpmn-proc1.png)
 
-### Processo 2 – NOME DO PROCESSO
+### PProcessos de negócios (BPMN)
 
-Apresente aqui o nome e as oportunidades de melhorias para o processo 2. Em seguida, apresente o modelo do processo 2, descrito no padrão BPMN.
+Business Process Modeling Notation (BPMN) é um padrão desenvolvido visando oferecer uma notação mais facilmente compreendida e usada por todos os envolvidos nos processos de negócio. 
 
-![Processo 2](img/02-bpmn-proc2.png)
+As regras de negócios foram traduzidas dentro desta metodologia para que seja possível ilustrar as regras de negócios de forma a traduzir nas entregas necessárias dentro do sistema.
+
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t6-pmv-ads-2024-1-e3-proj-recrutech/assets/128554958/831ce4fe-d61c-4778-ba77-3a910472e213)
+
+Este modelo simplificado aborda as principais funcionalidades do processo de cadastro e busca de vagas, proporcionando uma experiência mais direta para os usuários que buscam oportunidades na área de desenvolvimento de software.
+Abaixo segue o detalhamento individual dos processos:
+
+Processo 1 : Cadastro do currículo dos candidatos
+Processo 2: Buscar vaga
+Processo 3: Candidatar a vaga
+
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t6-pmv-ads-2024-1-e3-proj-recrutech/assets/128554958/10e17f81-093e-41ef-9a6b-695865eca5b1)
+
+Processo 3 : Cadastro de vagas
+Processo 2: Buscar candidato
+Processo 3: Selecionar candidato
+
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t6-pmv-ads-2024-1-e3-proj-recrutech/assets/128554958/a27ce77c-973e-4749-ac80-0580ab45aca9)
+
+
+
 
 ## Indicadores de Desempenho
 
