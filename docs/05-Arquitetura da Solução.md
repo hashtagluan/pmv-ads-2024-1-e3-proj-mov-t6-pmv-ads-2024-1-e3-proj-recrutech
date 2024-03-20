@@ -3,8 +3,9 @@
 <span style="color:red">Pré-requisitos: <a href="3-Projeto de Interface.md"> Projeto de Interface</a></span>
 
 Definição de como o software é estruturado em termos dos componentes que fazem parte da solução e do ambiente de hospedagem da aplicação.
+![arqDaSolucao](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t6-pmv-ads-2024-1-e3-proj-recrutech/assets/126488218/1a5a0061-e9b9-4feb-94f9-22a4987ef54c)
 
-![Arquitetura da Solução](img/02-mob-arch.png)
+
 
 ## Diagrama de Classes
 
@@ -37,9 +38,16 @@ Entregar um arquivo banco.sql contendo os scripts de criação das tabelas do ba
 
 ## Tecnologias Utilizadas
 
-Descreva aqui qual(is) tecnologias você vai usar para resolver o seu problema, ou seja, implementar a sua solução. Liste todas as tecnologias envolvidas, linguagens a serem utilizadas, serviços web, frameworks, bibliotecas, IDEs de desenvolvimento, e ferramentas.
+Tecnologias Utilizadas
+Linguagem: JavaScript, C#
+Biblioteca: React Native,
+IDE: Visual Studio,Visual Studio Code e Expo.dev
+Ferramentas apoio Backend:  Swagger e Postgres
+Ferramenta Wireframes: Figma
+Ferramenta de Comunicação: Whatsapp e Teams
+Ferramenta de Gestão de Projeto: Trello
+![gestaoProjeto](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t6-pmv-ads-2024-1-e3-proj-recrutech/assets/126488218/0bf229fa-9c60-4ec2-8583-1fbb9696f271)
 
-Apresente também uma figura explicando como as tecnologias estão relacionadas ou como uma interação do usuário com o sistema vai ser conduzida, por onde ela passa até retornar uma resposta ao usuário.
 
 ## Hospedagem
 
