@@ -4,7 +4,8 @@
 
 Definição de como o software é estruturado em termos dos componentes que fazem parte da solução e do ambiente de hospedagem da aplicação.
 
-![gestaoProjeto](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t6-pmv-ads-2024-1-e3-proj-recrutech/assets/126488218/9a05b1ab-d313-4619-b6a2-498119aa026b)
+
+![arqDaSolucao](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t6-pmv-ads-2024-1-e3-proj-recrutech/assets/126488218/c729f5dd-3a08-4b79-817e-9ce524e65ab4)
 
 
 
@@ -47,7 +48,7 @@ Ferramentas apoio Backend:  Swagger e Postgres
 Ferramenta Wireframes: Figma
 Ferramenta de Comunicação: Whatsapp e Teams
 Ferramenta de Gestão de Projeto: Trello
-![gestaoProjeto](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t6-pmv-ads-2024-1-e3-proj-recrutech/assets/126488218/0bf229fa-9c60-4ec2-8583-1fbb9696f271)
+![gestaoProjeto](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t6-pmv-ads-2024-1-e3-proj-recrutech/assets/126488218/9a05b1ab-d313-4619-b6a2-498119aa026b)
 
 
 ## Hospedagem
