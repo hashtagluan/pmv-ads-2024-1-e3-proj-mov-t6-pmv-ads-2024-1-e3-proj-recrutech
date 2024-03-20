@@ -3,9 +3,22 @@
 
 <span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a></span>
 
-<p style="text-align: justify;">Para conduzir nossos trabalhos de forma eficiente, adotamos a metodologia Ágil. Esta abordagem nos permite alcançar os objetivos finais do projeto de maneira iterativa e colaborativa, priorizando a entrega contínua de valor.</p>
+Para conduzir nossos trabalhos de forma eficiente, adotamos a metodologia Ágil. Esta abordagem nos permite alcançar os objetivos finais do projeto de maneira iterativa e colaborativa, priorizando a entrega contínua de valor.
 
-<p style="text-align: justify;">Como pré-requisito fundamental, estabelecemos a Documentação de Especificação para orientar nossas atividades.</p>
+Como pré-requisito fundamental, estabelecemos a Documentação de Especificação para orientar nossas atividades.
+
+Para auxiliar na implementação da metodologia Ágil, utilizaremos uma variedade de ferramentas especializadas:
+
+- GitHub: Optamos por esta plataforma devido à sua completude e eficácia no armazenamento e colaboração de código. O GitHub facilitará a gestão e compartilhamento do código-fonte entre os membros da equipe.
+
+- Google Drive: Esta ferramenta será dedicada ao armazenamento e gerenciamento de toda a documentação do projeto. O Google Drive garantirá que tenhamos um repositório centralizado e acessível para todos os documentos relacionados ao projeto.
+
+- Figma: Escolhemos o Figma para a criação de interfaces e wireframes. Esta plataforma oferece recursos avançados e colaborativos que nos permitirão prototipar e iterar designs de forma rápida e eficiente.
+
+- Trello: Para gerenciar as tarefas e o fluxo de trabalho da equipe, utilizaremos o Trello. Esta ferramenta de gestão de projetos baseada em quadros Kanban nos ajudará a visualizar e priorizar as atividades, promovendo uma melhor organização e comunicação entre os membros da equipe.
+
+Com essa combinação de metodologia ágil e ferramentas especializadas, estamos confiantes de que seremos capazes de conduzir o projeto de maneira eficaz, alcançando nossos objetivos de forma colaborativa e iterativa.
+
 
 
 
