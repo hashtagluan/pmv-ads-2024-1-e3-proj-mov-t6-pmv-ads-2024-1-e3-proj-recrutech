@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Recrutech-api", "Recrutech-api.csproj", "{6BDC2C1A-5F1B-4A4B-A075-C061333B118E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6BDC2C1A-5F1B-4A4B-A075-C061333B118E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BDC2C1A-5F1B-4A4B-A075-C061333B118E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BDC2C1A-5F1B-4A4B-A075-C061333B118E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BDC2C1A-5F1B-4A4B-A075-C061333B118E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3988A12B-28BF-4FCA-9CDB-7253451C0B8D}
+	EndGlobalSection
+EndGlobal
