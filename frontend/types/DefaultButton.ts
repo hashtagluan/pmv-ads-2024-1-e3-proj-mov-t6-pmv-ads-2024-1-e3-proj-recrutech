@@ -1,5 +1,8 @@
+import { LinkProps } from "expo-router";
+
 export interface ButtonProps {
   title: string;
-  variant?: "primary" | "secondary";
   onPress?: () => void;
+  link?: LinkProps<any>["href"];
+  variant?: "primary" | "secondary";
 }
