@@ -1,8 +1,8 @@
 import { Text, View, TextInput, StyleSheet } from "react-native";
 
 import { Colors } from "@/constants/Colors";
-import { TextFieldProps } from "@/types/TextField";
 import { FontSize, Spacing } from "@/constants/Sizes";
+import { TextFieldProps } from "@/types/TextField.interfaces";
 
 export default function TextField({
   label,

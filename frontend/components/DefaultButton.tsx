@@ -3,8 +3,8 @@ import { StyleSheet, Text, TouchableOpacity } from "react-native";
 import { Link } from "expo-router";
 
 import { Colors } from "@/constants/Colors";
-import { ButtonProps } from "@/types/DefaultButton";
 import { FontSize, Spacing } from "@/constants/Sizes";
+import { ButtonProps } from "@/types/DefaultButton.interfaces";
 
 function ButtonText({ title, variant }: Partial<ButtonProps>): JSX.Element {
   return (
