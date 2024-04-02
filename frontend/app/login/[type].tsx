@@ -6,8 +6,6 @@ import axios, { AxiosError } from "axios";
 import { yupResolver } from "@hookform/resolvers/yup";
 import { useForm, Controller, SubmitHandler } from "react-hook-form";
 
-import { FormModel, RenderTextFieldProps } from "@/types/Login";
-
 import { Colors } from "@/constants/Colors";
 import { Spacing } from "@/constants/Sizes";
 
@@ -16,6 +14,7 @@ import loginSchema from "@/schemas/loginSchema";
 import AppTitle from "@/components/AppTitle";
 import TextField from "@/components/TextField";
 import DefaultButton from "@/components/DefaultButton";
+import { FormModel, RenderTextFieldProps } from "@/types/Login.interfaces";
 
 const getVariant = (type: string | string[]): "primary" | "secondary" =>
   type === "dev" ? "secondary" : "primary";
@@ -44,8 +43,8 @@ export default function Login() {
   const elementVariant = getVariant(type);
 
   const defaultValues: FormModel = {
-    email: "",
-    password: "",
+    email: "email@meuemail.com",
+    password: "senha",
   };
 
   const {
@@ -59,12 +58,22 @@ export default function Login() {
 
   const onSubmit: SubmitHandler<FormModel> = async (data: FormModel) => {
     try {
-      await axios.post(
+      const response = await axios.post(
         `${API_URL}?email=${encodeURIComponent(data.email)}&password=${
           data.password
         }`,
         {}
       );
+
+      if (response.data) {
+        const { data } = response;
+
+        console.log("Login successful");
+        console.log({
+          email: data.email,
+          username: data.username,
+        });
+      }
     } catch (error) {
       if (error instanceof AxiosError) {
         console.error("Error fetching data", error.response?.data);
