@@ -1,4 +1,8 @@
+import { useCallback } from "react";
 import { Image, StyleSheet, Text, View } from "react-native";
+
+import { useFonts } from "expo-font";
+import * as SplashScreen from "expo-splash-screen";
 
 import AppTitle from "@/components/AppTitle";
 import DefaultButton from "@/components/DefaultButton";
@@ -6,11 +10,29 @@ import DefaultButton from "@/components/DefaultButton";
 import { Colors } from "@/constants/Colors";
 import { FontSize, Spacing } from "@/constants/Sizes";
 
+SplashScreen.preventAutoHideAsync();
+
 export default function Page() {
   const loginPath = "/login/[type]";
 
+  const [fontsLoaded, fontError] = useFonts({
+    "Roboto-Bold": require("@/assets/fonts/Roboto-Bold.ttf"),
+    "Roboto-Light": require("@/assets/fonts/Roboto-Light.ttf"),
+    "Roboto-Regular": require("@/assets/fonts/Roboto-Regular.ttf"),
+  });
+
+  const onLayoutRootView = useCallback(async () => {
+    if (fontsLoaded || fontError) {
+      await SplashScreen.hideAsync();
+    }
+  }, [fontsLoaded, fontError]);
+
+  if (!fontsLoaded && !fontError) {
+    return null;
+  }
+
   return (
-    <View style={styles.mainContainer}>
+    <View style={styles.mainContainer} onLayout={onLayoutRootView}>
       <View style={styles.headerContainer}>
         <Text style={styles.defaultText}>Bem vindo(a) ao</Text>
         <AppTitle />
@@ -46,9 +68,9 @@ const styles = StyleSheet.create({
   mainContainer: {
     flex: 1,
     alignItems: "center",
-    backgroundColor: Colors.white,
     gap: Spacing.extraLarge,
     justifyContent: "center",
+    backgroundColor: Colors.white,
   },
   headerContainer: {
     alignItems: "center",
@@ -60,7 +82,7 @@ const styles = StyleSheet.create({
   },
   defaultText: {
     color: Colors.black,
-    fontWeight: "bold",
+    fontFamily: "Roboto-Bold",
     fontSize: FontSize.medium,
   },
   appTitle: {
@@ -70,9 +92,6 @@ const styles = StyleSheet.create({
   },
   titleSuffix: {
     color: Colors.green,
-  },
-  buttonGreen: {
-    backgroundColor: Colors.green,
   },
   image: {
     width: 200,
