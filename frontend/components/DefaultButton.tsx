@@ -26,7 +26,7 @@ export default function DefaultButton({
       onPress={onPress}
     >
       {link ? (
-        <Link href={link} style={styles.link}>
+        <Link href={link} style={[styles.link]}>
           {ButtonText({ title, variant })}
         </Link>
       ) : (
@@ -38,19 +38,20 @@ export default function DefaultButton({
 
 const styles = StyleSheet.create({
   button: {
-    justifyContent: "center",
-    borderRadius: 8,
+    alignSelf: "stretch",
     color: Colors.white,
     padding: Spacing.small,
+    justifyContent: "center",
     backgroundColor: Colors.black,
+    borderRadius: Spacing.smallMedium,
   },
   link: {
     textAlign: "center",
   },
   text: {
     textAlign: "center",
-    fontWeight: "bold",
     color: Colors.white,
+    fontFamily: "Roboto-Bold",
     fontSize: FontSize.medium,
   },
   bgGreen: {
