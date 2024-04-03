@@ -5,20 +5,20 @@ import { Link, useLocalSearchParams } from "expo-router";
 import { yupResolver } from "@hookform/resolvers/yup";
 import { useForm, Controller, SubmitHandler } from "react-hook-form";
 
+import { authService } from "@/api/authService";
+
 import { Colors } from "@/constants/Colors";
 import { Spacing } from "@/constants/Sizes";
 
 import loginSchema from "@/schemas/loginSchema";
 
+import DefaultButton, {
+  getButtonVariantByUser,
+} from "@/components/DefaultButton";
 import AppTitle from "@/components/AppTitle";
-import TextField from "@/components/TextField";
-import DefaultButton from "@/components/DefaultButton";
+import TextField, { getFieldVariantByUser } from "@/components/TextField";
 
-import { authService } from "@/api/authService";
 import { FormModel, RenderTextFieldProps } from "@/types/Login.interfaces";
-
-const getVariant = (type: string | string[]): "primary" | "secondary" =>
-  type === "dev" ? "secondary" : "primary";
 
 const renderTextField = ({
   field: { onChange, value },
@@ -38,10 +38,11 @@ const renderTextField = ({
 );
 
 export default function Login() {
-  const { type } = useLocalSearchParams();
   const { login } = authService();
+  const { userType } = useLocalSearchParams();
 
-  const elementVariant = getVariant(type);
+  const fieldVariant = getFieldVariantByUser(userType);
+  const buttonVariant = getButtonVariantByUser(userType);
 
   const defaultValues: FormModel = {
     email: "email@meuemail.com",
@@ -75,7 +76,7 @@ export default function Login() {
             renderTextField({
               ...props,
               label: "Email",
-              variant: elementVariant,
+              variant: fieldVariant,
               placeholder: "Digite seu email",
               error: errors.email?.message,
             })
@@ -92,7 +93,7 @@ export default function Login() {
               ...props,
               label: "Senha",
               secureTextEntry: true,
-              variant: elementVariant,
+              variant: fieldVariant,
               placeholder: "Digite sua senha",
               error: errors.password?.message,
             })
@@ -101,7 +102,7 @@ export default function Login() {
         <View style={styles.signIn}>
           <DefaultButton
             title="Entrar"
-            variant={elementVariant}
+            variant={buttonVariant}
             onPress={handleSubmit(onSubmit)}
           />
           <Text style={styles.text}>Esqueci minha senha</Text>
@@ -110,7 +111,12 @@ export default function Login() {
         <View style={styles.register}>
           <Text style={styles.text}>
             Não tem uma conta?
-            <Link href="/">
+            <Link
+              href={{
+                pathname: "/signup/[userType]",
+                params: { userType: userType.toString() },
+              }}
+            >
               <Text style={[styles.text, styles.link]}> Cadastre-se</Text>
             </Link>
           </Text>
