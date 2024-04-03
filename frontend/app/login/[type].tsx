@@ -2,7 +2,6 @@ import { StyleSheet, Text, View, Platform } from "react-native";
 
 import { Link, useLocalSearchParams } from "expo-router";
 
-import axios, { AxiosError } from "axios";
 import { yupResolver } from "@hookform/resolvers/yup";
 import { useForm, Controller, SubmitHandler } from "react-hook-form";
 
@@ -14,6 +13,8 @@ import loginSchema from "@/schemas/loginSchema";
 import AppTitle from "@/components/AppTitle";
 import TextField from "@/components/TextField";
 import DefaultButton from "@/components/DefaultButton";
+
+import { authService } from "@/api/authService";
 import { FormModel, RenderTextFieldProps } from "@/types/Login.interfaces";
 
 const getVariant = (type: string | string[]): "primary" | "secondary" =>
@@ -26,7 +27,7 @@ const renderTextField = ({
   variant,
   placeholder,
   secureTextEntry,
-}: RenderTextFieldProps) => (
+}: RenderTextFieldProps): React.JSX.Element => (
   <>
     <TextField
       {...{ label, value, variant, placeholder, secureTextEntry }}
@@ -36,10 +37,10 @@ const renderTextField = ({
   </>
 );
 
-const API_URL = "https://recrutech-webapi.azurewebsites.net/api/Users/Login";
-
 export default function Login() {
   const { type } = useLocalSearchParams();
+  const { login } = authService();
+
   const elementVariant = getVariant(type);
 
   const defaultValues: FormModel = {
@@ -56,30 +57,9 @@ export default function Login() {
     defaultValues,
   });
 
-  const onSubmit: SubmitHandler<FormModel> = async (data: FormModel) => {
-    try {
-      const response = await axios.post(
-        `${API_URL}?email=${encodeURIComponent(data.email)}&password=${
-          data.password
-        }`,
-        {}
-      );
-
-      if (response.data) {
-        const { data } = response;
-
-        console.log("Login successful");
-        console.log({
-          email: data.email,
-          username: data.username,
-        });
-      }
-    } catch (error) {
-      if (error instanceof AxiosError) {
-        console.error("Error fetching data", error.response?.data);
-      }
-    }
-  };
+  const onSubmit: SubmitHandler<FormModel> = async (
+    data: FormModel
+  ): Promise<void> => await login(data.email, data.password);
 
   return (
     <View style={styles.container}>
@@ -163,7 +143,7 @@ const styles = StyleSheet.create({
       ios: {
         shadowRadius: 3,
         shadowOpacity: 0.2,
-        shadowColor: "#171717",
+        shadowColor: Colors.black,
         shadowOffset: { width: 0, height: 2 },
       },
       android: {
