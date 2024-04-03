@@ -176,5 +176,7 @@ const styles = StyleSheet.create({
   },
   error: {
     color: Colors.red,
+    alignSelf: "flex-start",
+    paddingLeft: Spacing.small,
   },
 });
