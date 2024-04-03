@@ -1,8 +1,9 @@
 import { useCallback } from "react";
 import { Image, StyleSheet, Text, View } from "react-native";
 
-import { useFonts } from "expo-font";
 import * as SplashScreen from "expo-splash-screen";
+
+import { initializeFonts } from "@/utils/helpers";
 
 import AppTitle from "@/components/AppTitle";
 import DefaultButton from "@/components/DefaultButton";
@@ -13,13 +14,7 @@ import { FontSize, Spacing } from "@/constants/Sizes";
 SplashScreen.preventAutoHideAsync();
 
 export default function Page() {
-  const loginPath = "/login/[type]";
-
-  const [fontsLoaded, fontError] = useFonts({
-    "Roboto-Bold": require("@/assets/fonts/Roboto-Bold.ttf"),
-    "Roboto-Light": require("@/assets/fonts/Roboto-Light.ttf"),
-    "Roboto-Regular": require("@/assets/fonts/Roboto-Regular.ttf"),
-  });
+  const { fontsLoaded, fontError } = initializeFonts();
 
   const onLayoutRootView = useCallback(async () => {
     if (fontsLoaded || fontError) {
@@ -44,14 +39,14 @@ export default function Page() {
           title="Procuro vagas"
           variant="secondary"
           link={{
-            pathname: loginPath,
+            pathname: "/login/[type]",
             params: { type: "dev" },
           }}
         />
         <DefaultButton
           title="Quero contratar"
           link={{
-            pathname: loginPath,
+            pathname: "/login/[type]",
             params: { type: "recruiter" },
           }}
         />
@@ -77,7 +72,7 @@ const styles = StyleSheet.create({
     gap: Spacing.medium,
   },
   bodyContainer: {
-    gap: Spacing.small,
+    gap: Spacing.smallMedium,
     maxWidth: 200,
   },
   defaultText: {
