@@ -1,6 +1,5 @@
+import { AuthService } from "@/types/AuthService.interface";
 import axios, { isAxiosError } from "axios";
-
-import { AuthService } from "@/types/AuthService.interfaces";
 
 export const authService = (): AuthService => {
   const API_URL = "https://recrutech-webapi.azurewebsites.net/api/Users/Login";
