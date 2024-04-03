@@ -4,6 +4,12 @@ import { Colors } from "@/constants/Colors";
 import { FontSize, Spacing } from "@/constants/Sizes";
 import { TextFieldProps } from "@/types/TextField.interfaces";
 
+export function getFieldVariantByUser(
+  usertype: string | string[]
+): TextFieldProps["variant"] {
+  return usertype === "dev" ? "secondary" : "primary";
+}
+
 export default function TextField({
   label,
   variant,

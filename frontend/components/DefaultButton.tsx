@@ -14,6 +14,12 @@ function ButtonText({ title, variant }: Partial<ButtonProps>): JSX.Element {
   );
 }
 
+export function getButtonVariantByUser(
+  usertype: string | string[]
+): ButtonProps["variant"] {
+  return usertype === "dev" ? "secondary" : "primary";
+}
+
 export default function DefaultButton({
   link,
   title,
