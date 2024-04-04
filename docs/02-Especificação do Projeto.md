@@ -42,12 +42,125 @@ Apresente aqui o nome e as oportunidades de melhorias para o processo 2. Em segu
 
 ## Indicadores de Desempenho
 
+Indicadores de desempenho desempenham um papel vital na avaliação do sucesso e na orientação das estratégias empresariais. Por meio de métricas quantificáveis e mensuráveis, as organizações podem monitorar e avaliar o desempenho de diversos aspectos do negócio. Esses indicadores fornecem insights valiosos sobre o progresso em direção aos objetivos estabelecidos, ajudando na identificação de áreas de melhoria e no direcionamento de recursos de forma mais eficiente.
+
+Abaixo segue os macro indicadores direcionais das diretrizes de negócios:
+
+
 | Indicador                           | Objetivo                                                                                                  | Descrição                                                                                                                     | Cálculo                                                    | Fonte de Dados                                 | Perspectiva                                                                                                                                |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------|--------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------|
 | Taxa de Conversão de Candidatos      | Aumentar a eficiência do processo de recrutamento, convertendo um maior número de candidatos em membros ativos na plataforma | Mede a porcentagem de candidatos que completam o processo de cadastro na plataforma em relação ao total de visitantes           | (Número de candidatos cadastrados / Número total de visitantes) * 100 | Registros de cadastros na plataforma.            | Uma taxa crescente indica uma maior aceitação e adoção da plataforma pelos desenvolvedores, refletindo um aumento na eficiência do processo de recrutamento                                        |
 | Tempo Médio de Preenchimento do Perfil | Simplificar o processo para os desenvolvedores, reduzindo o tempo necessário para preencher seus perfis na plataforma | Mede o tempo médio que os desenvolvedores levam para completar o preenchimento do perfil na plataforma                         | Soma do tempo de preenchimento de todos os perfis / Número total de perfis preenchidos                                   | Registros de tempo de preenchimento de perfil na plataforma | Uma redução no tempo médio de preenchimento indica que a plataforma está sendo percebida como intuitiva e amigável, facilitando a adesão dos desenvolvedores                                           |
 | Satisfação do Usuário                | Garantir uma experiência positiva para os desenvolvedores na plataforma                                     | Mede a satisfação dos usuários por meio de pesquisas regulares ou feedbacks diretos                                           | Pontuação média de satisfação (em uma escala de 1 a 5, por exemplo) | Pesquisas de satisfação, feedbacks diretos dos usuários | Um aumento na satisfação do usuário é indicativo de uma plataforma bem-sucedida, atendendo às expectativas e necessidades dos desenvolvedores                                                        |
 | Taxa de Colocação de Desenvolvedores  | Avaliar a eficácia da plataforma na colocação de desenvolvedores em oportunidades de trabalho              | Mede a porcentagem de desenvolvedores na plataforma que foram colocados com sucesso em posições de trabalho                   | (Número de desenvolvedores colocados / Número total de desenvolvedores) * 100 | Registros de colocação de desenvolvedores       | Uma taxa elevada de colocação indica que a plataforma está cumprindo sua missão de simplificar e melhorar o processo de recrutamento para desenvolvedores                                   |
+
+
+Projeções e indicadores gerenciais
+
+Desta forma, baseado nos pilares de direcionamento foram criados 7 indicadores adicionais para gestão constante do negócio e ja com as previsões de efetividade para 12 meses:
+
+Indicador 1: Vagas preenchidas
+Indicador 2: disponibilidade do sistema 24 horas por dia
+Indicador 3: Satisfação do candidato em relação ao processo
+Indicador 4: Satisfação dos recrutadores ao processo 
+Indicador 5: Compatibilidade dos candidatos com perfil para a vaga
+Indicador 6: Efetividade das contratações
+Indicador 7: Turnover pós contratação
+
+
+Indicador 1: Vagas preenchidas
+
+Este indicador mede a eficácia do processo de recrutamento em preencher as vagas disponíveis na organização. Ele reflete a capacidade do processo de atrair candidatos qualificados e selecionar aqueles que melhor se encaixam nas posições em aberto.
+
+Meta estipulada: A meta é preencher todas as vagas abertas dentro de um determinado período, com candidatos qualificados e compatíveis com os requisitos da posição. Objetivo: 95% de efetividade
+
+Como mensurar: Este indicador pode ser mensurado contando o número de vagas preenchidas e o número de processos encerrados,
+
+Periodicidade: A mensuração deve ser realizada mensalmente
+
+Este indicador fornece uma visão geral da eficácia do processo de recrutamento em atrair e selecionar os candidatos certos para preencher as vagas disponíveis na organização.
+
+![image](https://github.com/hashtagluan/pmv-ads-2024-1-e3-proj-mov-t6-pmv-ads-2024-1-e3-proj-recrutech/assets/128554958/2bd082c0-3f02-431b-81cd-66398695cf49)
+
+Indicador 2: Disponibilidade do sistema 24 horas por dia
+
+Este indicador avalia a disponibilidade do sistema de recrutamento durante todo o dia. Uma vez que muitos candidatos podem aplicar-se a qualquer momento, é essencial que o sistema esteja sempre disponível para receber inscrições e processar informações.
+
+Meta estipulada: A meta é garantir que o sistema de recrutamento esteja disponível 24 horas por dia, 7 dias por semana, com um tempo mínimo de inatividade planejada para manutenção e atualizações.
+
+Como mensurar: A disponibilidade do sistema pode ser monitorada usando ferramentas de monitoramento de tempo de atividade, que registram o tempo em que o sistema está operacional e o tempo de inatividade programado.
+
+Periodicidade: A mensuração deve ser realizada semanalmente
+
+![image](https://github.com/hashtagluan/pmv-ads-2024-1-e3-proj-mov-t6-pmv-ads-2024-1-e3-proj-recrutech/assets/128554958/ef994393-7357-490e-ab4a-9ce7190d96f2)
+
+Indicador 3: Satisfação do candidato em relação ao processo
+
+Este indicador mede a satisfação geral dos candidatos com o processo de recrutamento, desde a aplicação até a oferta de emprego. Ele reflete a experiência geral do candidato e principalmente na percepção de um processo simplificado
+
+Meta estipulada: A meta é alcançar uma alta taxa de satisfação do candidato, com a maioria dos candidatos expressando satisfação com o processo de recrutamento e comunicação da empresa.
+
+Como mensurar: A satisfação do candidato pode ser mensurada por meio de pesquisas de feedback após cada etapa do processo de recrutamento, perguntando aos candidatos sobre sua experiência, pontos fortes e áreas de melhoria.
+
+Periodicidade: A mensuração deve ser realizada mensalmente
+
+Esses indicadores fornecem informações valiosas sobre a eficácia do sistema de recrutamento, a satisfação dos candidatos e a disponibilidade do sistema, permitindo que a empresa avalie e melhore continuamente seus processos de recrutamento e seleção.
+
+![image](https://github.com/hashtagluan/pmv-ads-2024-1-e3-proj-mov-t6-pmv-ads-2024-1-e3-proj-recrutech/assets/128554958/96fa23f8-3aa8-448a-87d2-43d4fbd7b0fb)
+
+Indicador 4: Satisfação dos recrutadores com o processo
+
+Este indicador avalia a satisfação dos recrutadores com o processo de recrutamento, incluindo aspectos como eficiência, qualidade dos candidatos e adequação do processo às necessidades da empresa. Dessa forma mensurar a percepção de um processo simplificado.
+
+Meta estipulada: A meta é garantir uma alta taxa de satisfação dos recrutadores, com a maioria expressando satisfação com o processo de recrutamento e seleção.
+
+Como mensurar: A satisfação dos recrutadores pode ser mensurada por meio de pesquisas de feedback periódicas, questionários ou entrevistas individuais, onde os recrutadores podem fornecer comentários sobre o processo e sugerir melhorias.
+
+Periodicidade: A mensuração deve ser realizada mensalmente
+
+![image](https://github.com/hashtagluan/pmv-ads-2024-1-e3-proj-mov-t6-pmv-ads-2024-1-e3-proj-recrutech/assets/128554958/e11ea052-c4fa-47d4-b912-4d3f292d3408)
+
+Indicador 5: Compatibilidade dos candidatos com o perfil para a vaga
+
+Este indicador avalia o quão bem os candidatos selecionados se encaixam com o perfil da vaga em termos de habilidades, experiência e características pessoais.
+
+Meta estipulada: A meta é selecionar candidatos que sejam altamente compatíveis com o perfil da vaga, minimizando a lacuna entre as habilidades e experiências necessárias e as habilidades e experiências dos candidatos selecionados.
+
+Como mensurar: A compatibilidade dos candidatos pode ser avaliada por meio de análises comparativas entre os requisitos da vaga e as qualificações dos candidatos selecionados, além de feedbacks dos gestores de contratação e desempenho dos candidatos após a contratação.
+
+Periodicidade: A mensuração deve ser realizada mensalmente
+
+Esses indicadores são fundamentais para garantir um processo de recrutamento eficaz, que atenda tanto às necessidades dos candidatos quanto às da empresa, promovendo a satisfação de ambas as partes e contribuindo para o sucesso organizacional.
+
+![image](https://github.com/hashtagluan/pmv-ads-2024-1-e3-proj-mov-t6-pmv-ads-2024-1-e3-proj-recrutech/assets/128554958/c70def10-f984-4d20-acc9-b2aa238519aa)
+
+Indicador 6: Efetividade das contratações
+
+Este indicador avalia a eficácia das contratações feitas após o processo de recrutamento. Ele analisa o desempenho e a contribuição dos novos contratados para a organização.
+
+Meta estipulada: A meta é garantir que as contratações realizadas atendam às expectativas de desempenho e contribuam positivamente para os objetivos da empresa.
+
+Como mensurar: A satisfação dos recrutadores pode ser mensurada por meio de pesquisas de feedback periódicas, questionários ou entrevistas individuais, onde os recrutadores podem fornecer comentários sobre o processo e sugerir melhorias.
+
+Periodicidade: A mensuração deve ser realizada mensalmente
+
+![image](https://github.com/hashtagluan/pmv-ads-2024-1-e3-proj-mov-t6-pmv-ads-2024-1-e3-proj-recrutech/assets/128554958/d0d2d497-cd45-48cf-9952-0c218a9ab2b8)
+
+Indicador 7: Turnover pós-contratação
+
+Explicação: Este indicador mede a taxa de rotatividade de funcionários após a contratação. Ele indica o quão bem-sucedida foi a seleção e integração dos novos funcionários na organização.
+
+Meta estipulada: A meta é manter uma baixa taxa de turnover pós-contratação, minimizando o número de funcionários que deixam a empresa dentro de um período específico após serem contratados.
+
+Como mensurar: A satisfação dos recrutadores pode ser mensurada por meio de pesquisas de feedback periódicas, questionários ou entrevistas individuais, onde os recrutadores podem fornecer comentários sobre o processo e sugerir melhorias.
+
+Periodicidade: A mensuração deve ser realizada semestralmente
+
+![image](https://github.com/hashtagluan/pmv-ads-2024-1-e3-proj-mov-t6-pmv-ads-2024-1-e3-proj-recrutech/assets/128554958/ed054d12-f539-43cc-baaa-63e680c1078a)
+
+Portanto, esses indicadores são cruciais para avaliar a eficácia do processo de recrutamento e seleção, bem como o impacto das contratações na organização a longo prazo. Ao acompanhar esses indicadores de forma consistente, as empresas podem identificar áreas de melhoria e implementar estratégias para otimizar seu processo de contratação e retenção de talentos.
+
+
 
 ## Requisitos
 
